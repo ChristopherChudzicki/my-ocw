@@ -7,43 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (function() { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./course-v2/assets/css/instructor-insights.scss":
 /*!*******************************************************!*\
   !*** ./course-v2/assets/css/instructor-insights.scss ***!
   \*******************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+/***/ (function() {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb3Vyc2UtdjIvYXNzZXRzL2Nzcy9pbnN0cnVjdG9yLWluc2lnaHRzLnNjc3MuanMiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb2N3LWh1Z28tdGhlbWVzLy4vY291cnNlLXYyL2Fzc2V0cy9jc3MvaW5zdHJ1Y3Rvci1pbnNpZ2h0cy5zY3NzPzE5MzgiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./course-v2/assets/css/instructor-insights.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: Loading PostCSS Plugin failed: Cannot find module '@fullhuman/postcss-purgecss'\nRequire stack:\n- /Users/cchudzicki/dev/ocw-hugo-themes/noop.js\n\n(@/Users/cchudzicki/dev/ocw-hugo-themes/postcss.config.js)\n    at load (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:28:11)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:53:16\n    at Array.map (<anonymous>)\n    at plugins (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:52:8)\n    at processResult (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:33:14)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:94:14\n    at tryRunOrWebpackError (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/HookWebpackError.js:88:9)\n    at __webpack_require_module__ (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5055:12)\n    at __webpack_require__ (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5012:18)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5083:20\n    at symbolIterator (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/neo-async/async.js:3485:9)\n    at done (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/neo-async/async.js:3527:9)\n    at Hook.eval [as callAsync] (eval at create (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/tapable/lib/Hook.js:18:14)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:4990:43\n    at symbolIterator (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/neo-async/async.js:3482:9)\n-- inner error --\nError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: Loading PostCSS Plugin failed: Cannot find module '@fullhuman/postcss-purgecss'\nRequire stack:\n- /Users/cchudzicki/dev/ocw-hugo-themes/noop.js\n\n(@/Users/cchudzicki/dev/ocw-hugo-themes/postcss.config.js)\n    at load (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:28:11)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:53:16\n    at Array.map (<anonymous>)\n    at plugins (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:52:8)\n    at processResult (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:33:14)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:94:14\n    at Object.<anonymous> (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/css-loader/dist/cjs.js!/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-loader/src/index.js!/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/sass-loader/dist/cjs.js!/Users/cchudzicki/dev/ocw-hugo-themes/course-v2/assets/css/instructor-insights.scss:1:7)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/javascript/JavascriptModulesPlugin.js:441:11\n    at Hook.eval (eval at create (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at Hook.CALL_DELEGATE [as _call] (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/tapable/lib/Hook.js:14:14)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5057:39\n    at tryRunOrWebpackError (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/HookWebpackError.js:83:7)\n    at __webpack_require_module__ (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5055:12)\n    at __webpack_require__ (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5012:18)\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/webpack/lib/Compilation.js:5083:20\n    at symbolIterator (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/neo-async/async.js:3485:9)\n\nGenerated code for /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/css-loader/dist/cjs.js!/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-loader/src/index.js!/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/sass-loader/dist/cjs.js!/Users/cchudzicki/dev/ocw-hugo-themes/course-v2/assets/css/instructor-insights.scss\n1 | throw new Error(\"Module build failed (from ./node_modules/postcss-loader/src/index.js):\\nError: Loading PostCSS Plugin failed: Cannot find module '@fullhuman/postcss-purgecss'\\nRequire stack:\\n- /Users/cchudzicki/dev/ocw-hugo-themes/noop.js\\n\\n(@/Users/cchudzicki/dev/ocw-hugo-themes/postcss.config.js)\\n    at load (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:28:11)\\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:53:16\\n    at Array.map (<anonymous>)\\n    at plugins (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/plugins.js:52:8)\\n    at processResult (/Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:33:14)\\n    at /Users/cchudzicki/dev/ocw-hugo-themes/node_modules/postcss-load-config/src/index.js:94:14\");");
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
-/******/ 	// The require scope
-/******/ 	var __webpack_require__ = {};
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	!function() {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = function(exports) {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	}();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./course-v2/assets/css/instructor-insights.scss"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./course-v2/assets/css/instructor-insights.scss"]();
 /******/ 	
 /******/ })()
 ;

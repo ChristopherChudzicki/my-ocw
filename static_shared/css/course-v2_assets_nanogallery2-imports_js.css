@@ -1,6 +1,6 @@
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/nanogallery2/src/css/nanogallery2.css ***!
-  \***************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/nanogallery2/src/css/nanogallery2.css ***!
+  \****************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 /* CSS for nanogallery2 - www.nanogallery2.nanostudio.org */
 /**************************************/
@@ -23,6 +23,7 @@
   overflow: hidden;
   visibility: visible;
   -webkit-user-select: none;
+   -ms-user-select: none;
        user-select: none;
   -webkit-touch-callout: none;
 }
@@ -851,7 +852,6 @@
 .nGY2PortInfo a:hover,
 .nGY2PortInfo a:active {
   color: #FF0075 !important;
-  -webkit-text-decoration: none !important;
   text-decoration: none !important;
 }
 /**************************************/
@@ -1287,6 +1287,7 @@
 /**************************************/
 .nGY2.unselectable {
   -webkit-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 /**************************************/

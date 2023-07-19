@@ -1,6 +1,6 @@
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./course-v2/assets/css/instructor-insights.scss ***!
-  \**********************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./course-v2/assets/css/instructor-insights.scss ***!
+  \***********************************************************************************************************************************************************************************/
 /* 32px == 2 x 16 */
 /* 28px == 2 x 16 */
 /* 24px == 1.5 x 16 */
@@ -86,9 +86,7 @@
 #course-content-section .approx-students h2 {
   color: #ffffff !important;
   text-transform: none !important;
-}
-#course-content-section .approx-students h1,
-#course-content-section .approx-students h2 {
   -webkit-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
